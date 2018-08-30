@@ -6,3 +6,6 @@ deploy:
  api-key: 
   secure: $HEROKU_API_KEY
  app: SKIVVY
+
+before_install:
+  - chmod +x mvnw
