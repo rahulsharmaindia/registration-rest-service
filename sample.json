@@ -1,0 +1,62 @@
+{
+  "id": "1",
+  "maidId": "m1",
+  "name": "mname",
+  "age": 22,
+  "mobile": "8888888888",
+  "religion": "HINDU",
+  "isPartTime": true,
+  "cookingStyle": "BOTH",
+  "workCategories": [
+    "BABYCARE",
+    "LUNCH"
+  ],
+  "workingHours": [
+    {
+      "from": 384,
+      "to": 1800
+    }
+  ],
+  "workLocations": [
+    {
+      "houseNo": "101",
+      "locality": "sector71",
+      "city": "noida",
+      "state": "UP"
+    }
+  ],
+  "localAddress": {
+    "houseNo": "101",
+    "locality": "sector71",
+    "city": "noida",
+    "state": "UP"
+  },
+  "permanentAddress": {
+    "houseNo": "101",
+    "locality": "sector71",
+    "city": "noida",
+    "state": "UP"
+  },
+  "identities": [
+    {
+      "idName": "adhaar",
+      "idNumber": "11111111"
+    }
+  ]
+}
+
+/*User user = new User();
+        user.setId("1");
+        user.setName("mname");
+        user.setMaidId("m1");
+        user.setAge(22);
+        user.setCookingStyle(CookingStyle.BOTH);
+        user.setIsPartTime(true);
+        user.setMobile("8888888888");
+        user.setIdentities(List.of(new Identity("adhaar","11111111")));
+        user.setLocalAddress(new Address("101","sector71","noida","UP"));
+        user.setPermanentAddress(new Address("101","sector71","noida","UP"));
+        user.setReligion(Religion.HINDU);
+        user.setWorkCategories(List.of(WorkingCategory.BABYCARE,WorkingCategory.LUNCH));
+        user.setWorkingHours(List.of(new WorkingHour(0600,1800)));
+        user.setWorkLocations(List.of(new Address("101","sector71","noida","UP")));*/
