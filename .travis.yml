@@ -4,8 +4,8 @@ jdk:
 deploy:
  provider: heroku
  api-key: 
-  secure: $HEROKU_API_KEY
- app: SKIVVY
+  secure: "44180e6c-a823-413a-897d-bff5d4c8bd74"
+ app: skivvy
 
 before_install:
   - chmod +x mvnw
